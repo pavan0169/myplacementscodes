@@ -1,0 +1,50 @@
+package hashing;
+
+public class DoubleHashingMain
+{
+	public static void main(String[] args)
+	{
+		DoubleHashing qp=new DoubleHashing();
+		qp.insert("PAVAN");
+		qp.insert("PAVAN");
+		qp.insert("PAVAN");
+		qp.insert("PAVAN");
+		qp.displayHashTable();
+		qp.delete("PAVAN");
+		qp.displayHashTable();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*qp.insert("PAVAN");
+		qp.insert("VANPA");
+		qp.insert("PNAVA");
+		qp.insert("NPAVA");
+		qp.insert("PANVA");
+		qp.insert("PAVAN");
+		qp.insert("VANPA");
+		qp.insert("PNAVA");
+		qp.insert("NPAVA");
+		qp.insert("PANVA");
+		qp.insert("ABCDE");
+		qp.displayHashTable();
+		System.out.println(qp.search("PAVAN"));
+		System.out.println(qp.search("ABCDE"));
+		System.out.println(qp.search("ABC"));
+		qp.delete("PAVAN");
+		qp.delete("PANVA");
+		qp.delete("PAVAN");
+		qp.delete("VANPA");
+		qp.delete("PNAVA");
+		qp.delete("NPAVA");
+		qp.delete("PANVA");
+		qp.delete("ABCDE");
+		qp.displayHashTable();*/
+	}
+}
